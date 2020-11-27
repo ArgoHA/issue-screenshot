@@ -1,7 +1,7 @@
 # issue-screenshot
 
 ## English
-This script was created to inform responcible people if there is an issue in splunk or appdynamic metrics with screenshots of dashboards. As you can not do that with built in tools (when you need a screenshot of the dashboard), it's done with custom database and python script
+This script was created to inform responsible people if there is an issue in splunk or appdynamic metrics with screenshots of dashboards. As you can not do that with built in tools (when you need a screenshot of the dashboard), it's done with custom database and python script
 
 Script can open different dashboards in crhome and then check it there's an issue (issues are being written in database). If there is one - script gets a screenshot of needed dashboard, writes a message and sends it vy email and MS Teams.
 
