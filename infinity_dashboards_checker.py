@@ -1,4 +1,4 @@
-import time, sys, smtplib, os, yaml, configparser, pymysql
+import time, sys, smtplib, configparser, pymysql
 from datetime import datetime, date
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
